@@ -1,0 +1,15 @@
+export default {
+    title: require('./title.png'),
+    avatar: require('./avatar.png'),
+    banner: require('./banner.jpg'),
+    pin: require('./map-pin.png'),
+    enroll: require('./enrollment.png'),
+    logo: require('./logo.png'),
+    quiz: require('./quiz.png'),
+    intro1: require('./image1.png'),
+    intro2: require('./image2.png'),
+    intro3: require('./image3.png'),
+    mining: require('./mining.png'),
+    kangaro: require('./kangaro.png'),
+    assessment: require('./assessment.png'),
+  };
