@@ -11,7 +11,7 @@ jobs:
     environment: stage
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repository  code
         uses: actions/checkout@v2
 
       - name: 🏗 Setup Node
