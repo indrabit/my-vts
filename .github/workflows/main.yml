@@ -26,6 +26,9 @@ jobs:
           eas-version: latest
           token: ${{ secrets.EXPO_TOKEN }}
 
+      - name: Initialize EAS project 
+        run: eas init --id 48ddef03-b531-46f3-b957-812c727aaba5
+
       - name: 📦 Install dependencies
         run: yarn install
   
